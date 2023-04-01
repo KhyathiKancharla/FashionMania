@@ -1,0 +1,49 @@
+{% extends 'base.html' %}
+
+{% block title %}Home{% endblock %}
+
+
+
+{% block body %}
+
+<div class="container" align="center">
+ <h1>Home Page - Welcome to SDP2 Project</h1>
+
+<h3>Welcome to {{data}}</h3>
+
+</div>
+<br><br>
+<div class="row">
+  <div class="col-sm-4">
+    <div class="card">
+     <img class="card-img-top" src="static/images/8.jpg" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">Rent this Car with Special Rates</h5>
+        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+        <center><a href="#" class="btn btn-primary">RENT NOW</a></center>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-4">
+    <div class="card">
+     <img class="card-img-top" src="static/images/11.png" alt="Card image cap" height="260">
+      <div class="card-body">
+        <h5 class="card-title">Rent this Car with Special Rates</h5>
+        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+        <center><a href="#" class="btn btn-primary">RENT NOW</a></center>
+      </div>
+    </div>
+  </div>
+    <div class="col-sm-4">
+    <div class="card">
+     <img class="card-img-top" src="static/images/12.jpg" alt="Card image cap" height="260">
+      <div class="card-body">
+        <h5 class="card-title">Rent this Car with Special Rates</h5>
+        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+        <center><a href="#" class="btn btn-primary">RENT NOW</a></center>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% endblock %}
